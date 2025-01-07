@@ -141,7 +141,7 @@ def create_project_metadata(project_id, project_name, short_name, category, file
     print(f"\nProject metadata saved to: {json_path}")
 
 def create_project_metadata_js(project_id, project_name, short_name, category, files_available, has_assets):
-    js_path = "C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/js_files/backend/projects.js"
+    js_path = "C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/js_files/backend/projects.js"
     
     
     new_project_data = {
@@ -203,31 +203,31 @@ def create_project_metadata_js(project_id, project_name, short_name, category, f
 
 def move_files_to_locations(project_id, has_assets):
     if category == 'htmlcss':
-        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/Zip/htmlcss'
-        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/codes/htmlcss_txt_files'
+        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/Zip/htmlcss'
+        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/codes/htmlcss_txt_files'
         css_txt_folder = html_txt_folder  
         js_txt_folder = html_txt_folder  
     elif category == 'tailwindCSS':
-        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/Zip/tailwindCSS'
-        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/codes/tailwindCSS_txt_files'
+        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/Zip/tailwindCSS'
+        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/codes/tailwindCSS_txt_files'
         css_txt_folder = html_txt_folder  
         js_txt_folder = html_txt_folder  
     elif category == 'javascript':
-        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/Zip/javascript'
-        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/codes/javascript_txt_files'
+        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/Zip/javascript'
+        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/codes/javascript_txt_files'
         css_txt_folder = html_txt_folder  
         js_txt_folder = html_txt_folder  
     elif category == 'reactJS':
-        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/Zip/reactJS'
-        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/codes/reactJS_txt_files'
+        zip_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/Zip/reactJS'
+        html_txt_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/codes/reactJS_txt_files'
         css_txt_folder = html_txt_folder
         js_txt_folder = html_txt_folder
     else:
         print(f"Category {category} not recognized.")
         return
 
-    screenshot_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/images/thumbnails'
-    assets_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/Zip/assets_zip'
+    screenshot_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/images/thumbnails'
+    assets_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/Zip/assets_zip'
 
     os.makedirs(zip_folder, exist_ok=True)
     os.makedirs(screenshot_folder, exist_ok=True)
@@ -282,13 +282,13 @@ def process_project(project_path, project_name, short_name, category, files_avai
             break
 
     if category == 'htmlcss':
-        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/demo/htmlcss'
+        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/demo/htmlcss'
     elif category == 'tailwindCSS':
-        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/demo/tailwindCSS'
+        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/demo/tailwindCSS'
     elif category == 'javascript':
-        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/demo/javascript'
+        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/demo/javascript'
     elif category == 'reactJS':
-        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes Vercel/demo/reactJS'
+        destination_folder = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Websites/SudhuCodes Vercel/demo/reactJS'
     else:
         print(f"Category {category} not recognized.")
         return
@@ -311,9 +311,9 @@ def process_project(project_path, project_name, short_name, category, files_avai
     move_files_to_locations(project_id, has_assets)
 
 
-project_path = 'C:/Users/sudha/OneDrive/Desktop/Files/Coding Project Final/Interactive Command Line Interface Terminal Card Component - HTML&CSS'
-project_name = 'Interactive Command Line Interface Terminal Card Component - HTML&CSS'
-short_name = 'Command Line Interface - HTML&CSS'
+project_path = 'C:/Users/sudha/OneDrive/Desktop/Files/Coding Project Final/Professional Article Card Design - HTML & CSS'
+project_name = 'Professional Article Card Design - HTML & CSS'
+short_name = 'Card Design - HTML&CSS'
 category = 'htmlcss'
 files_available = ['html', 'css']
 

@@ -708,5 +708,17 @@
         ],
         "hasAssets": false,
         "uploadTime": "December 18, 2024 at 08:06 PM"
+    },
+    "HTMLCSS-CD-H-20241231-7QHOJ": {
+        "projectId": "HTMLCSS-CD-H-20241231-7QHOJ",
+        "projectName": "Professional Article Card Design - HTML & CSS",
+        "shortName": "Card Design - HTML&CSS",
+        "category": "htmlcss",
+        "filesAvailable": [
+            "html",
+            "css"
+        ],
+        "hasAssets": false,
+        "uploadTime": "December 31, 2024 at 08:01 PM"
     }
 }
