@@ -720,5 +720,41 @@
         ],
         "hasAssets": false,
         "uploadTime": "December 31, 2024 at 08:01 PM"
+    },
+    "HTMLCSS-MN-H-20250109-4QHEZ": {
+        "projectId": "HTMLCSS-MN-H-20250109-4QHEZ",
+        "projectName": "Responsive Modern Newsletter Subscription Popup with Clean UI",
+        "shortName": "Modern NewsLetter - HTML&CSS",
+        "category": "htmlcss",
+        "filesAvailable": [
+            "html",
+            "css"
+        ],
+        "hasAssets": false,
+        "uploadTime": "January 09, 2025 at 12:34 PM"
+    },
+    "HTMLCSS-LA-H-20250124-ZX94Q": {
+        "projectId": "HTMLCSS-LA-H-20250124-ZX94Q",
+        "projectName": "Creative Loader Animations - Sleek & Modern UI Design (HTML & CSS)",
+        "shortName": "Loader Animations - HTML&CSS",
+        "category": "htmlcss",
+        "filesAvailable": [
+            "html",
+            "css"
+        ],
+        "hasAssets": false,
+        "uploadTime": "January 24, 2025 at 10:18 PM"
+    },
+    "HTMLCSS-3FRC-H-20250209-FZTE0": {
+        "projectId": "HTMLCSS-3FRC-H-20250209-FZTE0",
+        "projectName": "Interactive 3D Flip Recipe Card - Sleek Food UI Design (HTML & CSS)",
+        "shortName": "3D Flip Recipe Card - HTML&CSS",
+        "category": "htmlcss",
+        "filesAvailable": [
+            "html",
+            "css"
+        ],
+        "hasAssets": false,
+        "uploadTime": "February 09, 2025 at 09:23 PM"
     }
 }

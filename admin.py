@@ -51,7 +51,7 @@ def take_screenshot(project_path, project_name):
     driver.get(html_path)
 
     
-    time.sleep(15)
+    time.sleep(5)
 
     screenshot = driver.get_screenshot_as_png()
     driver.quit()
@@ -311,9 +311,9 @@ def process_project(project_path, project_name, short_name, category, files_avai
     move_files_to_locations(project_id, has_assets)
 
 
-project_path = 'C:/Users/sudha/OneDrive/Desktop/Files/Coding Project Final/Professional Article Card Design - HTML & CSS'
-project_name = 'Professional Article Card Design - HTML & CSS'
-short_name = 'Card Design - HTML&CSS'
+project_path = 'C:/Users/sudha/OneDrive/Desktop/SudhuCodes/Files/Coding Project Final/Interactive 3D Flip Recipe Card - Sleek Food UI Design (HTML & CSS)'
+project_name = 'Interactive 3D Flip Recipe Card - Sleek Food UI Design (HTML & CSS)'
+short_name = '3D Flip Recipe Card - HTML&CSS'
 category = 'htmlcss'
 files_available = ['html', 'css']
 
